@@ -1,3 +1,9 @@
+<!--
+@component
+Screen7
+@description
+This screen presents a special gift to the user, featuring a video player, descriptive text, and an inspirational quote, all centered around a specific theme.
+-->
 <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
 <!-- Top App Bar -->
 <header class="flex items-center p-4 pb-2 justify-between text-text-main">

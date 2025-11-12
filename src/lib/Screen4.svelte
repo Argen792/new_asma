@@ -1,3 +1,9 @@
+<!--
+@component
+Screen4
+@description
+This screen displays a list of cherished qualities in a visually appealing card-style format.
+-->
 <div class="relative flex min-h-screen w-full flex-col items-center overflow-hidden">
 <!-- Animated Particles -->
 <div class="absolute top-0 left-0 h-full w-full overflow-hidden z-0">

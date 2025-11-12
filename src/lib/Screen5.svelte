@@ -1,3 +1,9 @@
+<!--
+@component
+Screen5
+@description
+This screen presents a series of prayers or well-wishes to the user, displayed in interactive, card-style elements.
+-->
 <div class="relative flex h-screen w-full flex-col items-center overflow-hidden p-4">
 <!-- Animated Background Elements -->
 <div class="light-ray"></div>

@@ -1,3 +1,9 @@
+<!--
+@component
+Screen6
+@description
+This screen displays a heartfelt message for the year ahead, featuring a warm, gradient background and an audio control button.
+-->
 <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden sunrise-gradient dark:dark-gradient">
 <header class="absolute top-0 right-0 z-10 p-4">
 <button on:click={() => console.log('Audio button clicked!')} class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-transparent text-[#191610] dark:text-warm-beige gap-2 pl-4 text-sm font-bold leading-normal tracking-[0.015em]">
