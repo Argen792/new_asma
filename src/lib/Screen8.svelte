@@ -1,3 +1,9 @@
+<!--
+@component
+Screen8
+@description
+A celebratory screen that displays a heartfelt birthday wish with an animated gradient background and floating particles.
+-->
 <div class="relative flex h-screen min-h-screen w-full flex-col items-center justify-center group/design-root overflow-hidden animated-gradient p-4">
 <!-- Particle System -->
 <div class="particle" style="width: 3px; height: 3px; left: 25%; animation-delay: 0s; --x-end: 20px;"></div>

@@ -1,3 +1,9 @@
+<!--
+@component
+Screen3
+@description
+A dedication screen that displays a title, a subtitle, and a call-to-action button to navigate downwards.
+-->
 <div class="relative flex h-screen w-full flex-col group/design-root overflow-hidden bg-gradient-to-b from-ivory to-blush-pink font-display text-text-dark-warm">
 <!-- Animated Overlay Elements could be added here via JS/CSS if this were a dynamic project -->
 <!-- For this static version, we focus on the layout and styling -->

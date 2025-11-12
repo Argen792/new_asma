@@ -1,3 +1,9 @@
+<!--
+@component
+Screen1
+@description
+The introductory screen of the application. Displays a welcome message and prompts the user to continue.
+-->
 <div class="relative flex h-dvh min-h-screen w-full flex-col group/design-root overflow-hidden bg-gradient-to-b from-ivory to-blush-pink dark:from-background-dark dark:to-zinc-900">
 <!-- Background Elements: Bokeh & Sparkles -->
 <div class="absolute inset-0 z-0 overflow-hidden">

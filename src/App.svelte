@@ -1,4 +1,9 @@
 <script lang="ts">
+  /**
+   * @file App.svelte
+   * @description Main application component that manages and displays different screens.
+   * @exports Component
+   */
   import { fade } from 'svelte/transition';
   import "./app.css";
 
@@ -16,12 +21,23 @@
   let currentScreen = 1;
   const totalScreens = 10;
 
+  /**
+   * @function nextScreen
+   * @description Increments the current screen number to display the next screen.
+   * @returns {void}
+   */
   function nextScreen() {
     if (currentScreen < totalScreens) {
       currentScreen += 1;
     }
   }
 
+  /**
+   * @function handleKeydown
+   * @description Handles keydown events to switch screens.
+   * @param {KeyboardEvent} event - The keyboard event object.
+   * @returns {void}
+   */
   function handleKeydown(event: KeyboardEvent) {
     if (event.key === 'Enter' || event.key === ' ') {
       nextScreen();
