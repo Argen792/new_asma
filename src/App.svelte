@@ -19,6 +19,8 @@
   function nextScreen() {
     if (currentScreen < totalScreens) {
       currentScreen += 1;
+    } else {
+      currentScreen = 1;
     }
   }
 
